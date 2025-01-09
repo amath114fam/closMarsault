@@ -3,6 +3,8 @@
     padding:0;
     margin: 0;
     font-family: "Advent Pro", serif;
+    left: 0%;
+    right: 0;
 }
 li{
     list-style: none;
@@ -227,6 +229,53 @@ button:hover{
     background-color: #fff;
     width: 75%;
     margin: 20px auto;
+}
+@media screen and (max-width:500px){
+    #tourisme p{
+        background-color: greenyellow;
+        width: 40px;
+        font-size: 10px;
+        float: left;
+        margin:  0;
+        text-align: center; 
+    }
+    #tourisme #ocean{
+        background: url(media/ocean.jpg)no-repeat 50% 50%;
+        background-size: cover;
+        height: 10vh;
+        box-shadow: 2px 5px 5px 2px black;
+        background-size: cover;
+        margin: 10px 10px;
+    }
+    #tourisme #chateau{
+        background: url(media/chateau.JPG)no-repeat 50% 50%;
+        background-size: cover;
+        height: 10vh;
+        box-shadow: 2px 5px 5px 2px black;
+        background-size: cover;
+        margin: 10px 10px;
+    }
+    #tourisme #estuaire{
+        background: url(media/phare.JPG)no-repeat 50% 50%;
+        background-size: cover;
+        height: 20vh;
+        box-shadow: 2px 5px 5px 2px black;
+        background-size: cover;
+        margin: 10px 10px;
+    }
+    #tourisme #vignoble{
+        background: url(media/vignes.jpg)no-repeat 50% 50%;
+        background-size: cover;
+        height: 20vh;
+        box-shadow: 2px 5px 5px 2px black;
+        background-size: cover;
+        margin: 10px 10px;
+    }
+    #touriste{
+        min-height: 100vh;
+        background-color: rgb(249, 247, 247);
+    }
+   
 }
 
 
