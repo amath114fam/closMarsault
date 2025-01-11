@@ -231,6 +231,91 @@ button:hover{
     width: 75%;
     margin: 20px auto;
 }
+@media screen and (max-width:500px) {
+    #tourisme #ocean{
+        background: url(media/ocean.jpg)no-repeat 50% 50%;
+        background-size: cover;
+        width: 100px;
+        height: 30vh;
+        box-shadow: 2px 5px 5px 2px black;
+        margin: 20px 150px;
+    }
+    #tourisme #chateau{
+        background: url(media/chateau.JPG)no-repeat 50% 50%;
+        background-size: cover;
+        width: 100px;
+        height: 30vh;
+        box-shadow: 2px 5px 5px 2px black;
+        margin: 20px 150px;
+    }
+    #tourisme #estuaire{
+        background: url(media/phare.JPG)no-repeat 50% 50%;
+        background-size: cover;
+        width: 100px;
+        height: 30vh;
+        box-shadow: 2px 5px 5px 2px black;
+        margin: 20px 150px;
+    }
+    #tourisme #vignoble{
+        background: url(media/vignes.jpg)no-repeat 50% 50%;
+        background-size: cover;
+        width: 100px;
+        height: 30vh;
+        box-shadow: 2px 5px 5px 2px black;
+        margin: 20px 150px;
+    }
+    #tourisme ul{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    #tourisme p{
+        background-color: greenyellow;
+        width: 150px;
+        float: right;
+        margin: 50px -100px  0;
+        text-align: center;
+    
+    }
+    #touriste{
+        min-height: 1000px;
+        background-color: rgb(249, 247, 247);
+    }
+    footer form{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin: 20px 20px 50% 20%;
+        padding-top: 20px;
+    } 
+    
+
+}
+@media screen and (max-width:414px) {
+    html, body{
+        overflow-x: hidden;
+    }
+    footer form{
+        margin: auto;
+        margin-left: 14%;
+    } 
+    #prestations #localisation{
+        padding: 40px 70px;
+        margin-right: 50%;
+    }
+    #prestations{
+    padding: 100px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    }
+    footer{
+        background-color: rgb(15, 17, 15);
+        height: 40vh;
+    }
+   
+   
+
+}
 
 
 
